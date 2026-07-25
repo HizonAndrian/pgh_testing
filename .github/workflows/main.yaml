@@ -1,13 +1,14 @@
 # Workflow info
 name: First Workflow
 on:
-  workflow_dispatch
+  [workflow_dispatch, push]
 
+# Jobs Level
 jobs:
   first-job:
     runs-on: ubuntu-latest
 
-    steps:
+    steps:  # Step Level
       - name: Print
         run : 
           echo "Hello World"
