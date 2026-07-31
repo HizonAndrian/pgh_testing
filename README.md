@@ -1,26 +1,30 @@
 # Playwright set up
 1. Make sure python is installed:
-    - python --version
+    - python3 --version
 
 2. Create a folder for the project
 
 3. Create a virtual environment in that folder:
     - python3 -m venv .venv
+    - apt install python3.14-venv
 
-4. Activate the virtual environment
+5. Activate the virtual environment
     - source .venv/bin/activate
 
-5. Install playwright
+6. Install playwright
     - pip install playwright
 
-6. Download Playwright browser binaries
+7. Download Playwright browser binaries
    - playwright install
 
-7. Install browser dependencies
+8. Install browser dependencies
     - python -m playwright install-deps
 
-8. Verify installation:
+9. Verify installation:
     - playwright --version
 
-9. Install Pytest
+10. Install Pytest
     - pip install pytest pytest-playwright
+
+11. Check all the installed packages
+- pip list
