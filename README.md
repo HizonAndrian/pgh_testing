@@ -27,4 +27,4 @@
     - pip install pytest pytest-playwright
 
 11. Check all the installed packages
-- pip list
+    - pip list
